@@ -25,6 +25,7 @@ describe('HeroesComponent (deep tests)', () => {
     ]);
 
     TestBed.configureTestingModule({
+        
       declarations: [HeroesComponent, HeroComponent],
       providers: [{ provide: HeroService, useValue: mockHeroService }],
       schemas: [NO_ERRORS_SCHEMA]
